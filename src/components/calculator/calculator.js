@@ -19,7 +19,6 @@ class Calculator extends React.Component {
     }
 
     onSubmit = () => {
-        this.setState({ totalString: '' });
         this.calculateChange();
         this.setState({
             showChange: true
